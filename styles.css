@@ -1,0 +1,71 @@
+nav {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: flex;
+    align-items:center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: lightseagreen;
+}
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+  }
+  .container {
+    display: flex;
+  }
+
+  img {
+    margin-right: 15px;
+    width: 50%;
+    height: 50%;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills span {
+    background-color: lightgrey;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  .projects {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-card img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .project-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
