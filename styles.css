@@ -1,3 +1,19 @@
+/*This styles skills section using media query to stack in a column
+at any sixe below 800 pixels */
+@media (max-width: 800px) {
+  .skills {
+    flex-direction: column;
+  }
+}
+/*This styles the nav items using media query to stack in a column
+at any sixe below 300 pixels */
+@media (max-width: 300px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+/*This styles the navigation in light grey while 
+justifying content based on screen width */
 .navigation {
   background-color: lightgrey;
   padding: 10px;
@@ -5,6 +21,7 @@
   justify-content: auto;
 }
 
+/*This styles the unstructured list and aligns the list items */
 nav ul {
   list-style-type: none;
   display: flex;
@@ -15,17 +32,18 @@ nav ul li {
   display: flex;
   align-items:center;
 }
-
+/*This styles the links black and provides adequate padding */
 nav ul li a {
   text-decoration: none;
   color: black;
   padding: 5px 10px;
 }
-
+/*This styles the hover behavior adding a box and bolding the item */
 nav ul li a:hover {
   background-color: lightseagreen;
   font-weight: bold; 
 }
+/*This styles the  */
 .profile-img {
   border-radius: 50%;
   box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
@@ -44,7 +62,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+/*This styles skills items black with padding */
 .skills span {
   background-color: lightgrey;
   color: black;
@@ -55,19 +73,19 @@ img {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
 }
-
+/*This styles the project cards */
 .project-card {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
 }
 
 .project-card img {
   width: 200px;
   height: 200px;
-  text-align: center;
+  justify-content: center;
 }
 
 .project-card p {
@@ -81,13 +99,13 @@ img {
 }
 .formsection {
 background-color: lightblue;
-padding: 30px;
+padding: 10px;
 text-align: center;
 }
 h4 {
 font-size: 28px;
 font-weight: 700;
-margin-bottom:10px
+margin-bottom:px
 }
 .projectsection {
 display:flex;

@@ -5,22 +5,25 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
     <header>
+      <!-- This is the navigation section with links-->
         <nav>
-            <ul class="navigation">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="navigation"> <!-- This class is used in the media query-->
+                <li><a href="#aboutme">About Me</a></li> 
+                <li><a href="#skillssection">Skills</a></li>
+                <li><a href="#projectsection">Projects</a></li>
+                <li><a href="#formsection">Contact</a></li>
+                <!-- The above links reference the following section ids-->
             </ul>
         </nav>
     </header>
-
-<section class="aboutme">
+<!-- This starts the about me section-->
+<section class="aboutme" id="aboutme">
     <h2>About Me</h2>
     <div class="container">
-    <img src="biopicture.jpg" alt="Rob Drouin" class="profile-img">
+    <img src="biopicture.jpg" alt="Rob Drouin" class="profile-img"> <!-- linkedin picture-->
     <p> My name is Rob Drouin. I am a Manager of Engineering 
         at Liberty Mutual Insurance. I have worked for Liberty 
         Mutual for 15 years in a number of different roles
@@ -37,10 +40,10 @@
     </p>
     </div>
 </section>
-
-<section class="skillssection">
+<hr><!-- adds lines between sections-->
 <h2>Skills</h2>
-<div class="skills">
+<section class="skillssection" id="skillssection">
+<div class="skills"> <!-- This class is used in the media query-->
     <span>HTML</span>
     <span>CSS</span>
     <span>JavaScript</span>
@@ -51,9 +54,10 @@
     <span>Git</span>
   </div>
 </section>
-
-<section class="projectsection"></section>
-  <h2>Projects</h2>
+<hr>
+<!-- begins the projects section-->
+<h2>Projects</h2>
+<section class="projectsection" id="projectsection">
   <div class="projects">
     <div class="project-card">
       <img src="project1.jpg" alt="Project 1">
@@ -73,10 +77,12 @@
       </div>
   </div>
 </section>
-
-<section class="formsection">
+<hr>
+<!-- This begins the contact form section-->
+<h2>Contact Us</h2>
+<section class="formsection" id="formsection">
   <div class="formquestions">
-    <h4 class="text-secondary">Contact Form</h4>
+    <a id="#contact"></a>
     <div class="form">
       <label for="Name">Name: </label>
       <input type="name" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Name">
@@ -93,13 +99,6 @@
     </div>
      <button type="submit" class="btn btn-secondary">submit</button>
       </div>
-</section>
-
+    </section>
     </body>
-
-
-<footer>
-
-
-</footer>
 </html>
