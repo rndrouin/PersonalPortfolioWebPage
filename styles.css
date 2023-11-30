@@ -42,6 +42,7 @@ img {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills span {
@@ -76,9 +77,9 @@ img {
 }
 .form {
   display: flex;
-  text-align: center;
+  justify-content: center;
 }
-.formquestions {
+.formsection {
 background-color: lightblue;
 padding: 30px;
 text-align: center;
@@ -90,5 +91,8 @@ margin-bottom:10px
 }
 .projectsection {
 display:flex;
-text-align: center;
+justify-content: center;
+}
+.form-control {
+  text-align: center;
 }
