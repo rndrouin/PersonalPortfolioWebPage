@@ -1,71 +1,94 @@
-nav {
-    background-color: lightgrey;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
+.navigation {
+  background-color: lightgrey;
+  padding: 10px;
+  display: flex;
+  justify-content: auto;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul li {
-    display: flex;
-    align-items:center;
+  display: flex;
+  align-items:center;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: lightseagreen;
+  background-color: lightseagreen;
+  font-weight: bold; 
 }
 .profile-img {
-    border-radius: 50%;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
-  }
-  .container {
-    display: flex;
-  }
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
+.container {
+  display: flex;
+}
 
-  img {
-    margin-right: 15px;
-    width: 50%;
-    height: 50%;
-  }
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .skills span {
-    background-color: lightgrey;
-    color: black;
-    padding: 5px 10px;
-    margin: 5px;
-  }
-  .projects {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .project-card {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .project-card img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  .project-card p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.5;
-  }
+img {
+  margin-right: 15px;
+  width: 50%;
+  height: 50%;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 10px;
+  margin: 5px;
+}
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-card img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.project-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.form {
+  display: flex;
+  text-align: center;
+}
+.formquestions {
+background-color: lightblue;
+padding: 30px;
+text-align: center;
+}
+h4 {
+font-size: 28px;
+font-weight: 700;
+margin-bottom:10px
+}
+.projectsection {
+display:flex;
+text-align: center;
+}
